@@ -4,11 +4,11 @@ This Python script automates the process of assigning students to classes, consi
 
 ## Features
 
-- Assigns students to classes based on predefined criteria
+- Assigns students to classes based on predefined criteria (Factor1, 2 and 3. I use internal and external data). This code ensures they are similiar. 
 - Balances class composition considering LS and GAT students
-- Creates multiple class combinations for comparison
-- Generates detailed metrics and summaries for each class and combination
-- Outputs results to an Excel file with multiple sheets for easy analysis
+- Creates multiple class combinations for comparison or different timetable sides. 
+- Generates metrics and summaries for each class and combination
+- Outputs results to an Excel file with multiple sheets for analysis
 
 ## Requirements
 
