@@ -91,5 +91,6 @@ You can modify the script to add additional criteria for student assignment or a
 - Seperate students - ie, if students need to be in a different class
 - Simplify code
 - Create a web app
-- Make the output pretty. 
+- Make the output pretty
+- Put excel formula rather than calculated value in output
 
