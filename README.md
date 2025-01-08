@@ -76,7 +76,7 @@ The script generates an Excel file with the following sheets:
 - If number of students exceed the number of seats, code will not run. Ensure you do some ball park calculations first (ie number of seats)
 - Ensure that fields are stripped and blocks/sides are notes with 'Block A' and 'Block B' etc
 - Factor1, 2, and 3, is quantitative/continuous data only.
-- The code isn't perfect, but it always a starting canvas. 
+- The code isn't perfect, but it acts a starting canvas. 
 
 ## Troubleshooting
 
@@ -85,4 +85,11 @@ If you encounter any errors, the script will print detailed information about th
 ## Customization
 
 You can modify the script to add additional criteria for student assignment or adjust the balancing algorithms to suit your specific needs.
+
+## Future Improvements
+- Cluster like students - ie, if students need to be in the same class
+- Seperate students - ie, if students need to be in a different class
+- Simplify code
+- Create a web app
+- Make the output pretty. 
 
