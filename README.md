@@ -1,6 +1,6 @@
 # Class Construction Script
 
-This Python script automates the process of assigning students to classes, considering various factors such as learning support (LS) and gifted and talented (GAT) designations.
+This Python script automates the process of assigning students to classes, considering numerous (3) factors and learning tags such as learning support (LS) and gifted and talented (GAT) designations.
 
 ## Features
 
@@ -70,6 +70,13 @@ The script generates an Excel file with the following sheets:
 - Combination1_Assignments and Combination2_Assignments: Full student assignments
 - Combination1_Metrics and Combination2_Metrics: Class metrics for each combination
 - Comb1_[Block] and Comb2_[Block]: Consolidated tables for each block in both combinations
+
+## Notes
+- This code fills up with GAT students from the lowest class number (ie 1) first, and LS students from the lowest class number (ie 9)
+- If number of students exceed the number of seats, code will not run. Ensure you do some ball park calculations first (ie number of seats)
+- Ensure that fields are stripped and blocks/sides are notes with 'Block A' and 'Block B' etc
+- Factor1, 2, and 3, is quantitative/continuous data only.
+- The code isn't perfect, but it always a starting canvas. 
 
 ## Troubleshooting
 
